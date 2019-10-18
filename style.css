@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Arapey', serif !important;
+}
+
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 200%;
+	color: #e733b1 !important;
+}
+
+h5 {
+	font-family: 'Cinzel', serif;
+}
+
+.navbar {
+    opacity: 0.85;
+}
+
+.jumbotron {
+	height: 450px;
+	background-image: url('img/main.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#cards {
+	padding: 10px;
+}
+
+.card {
+	margin: 0 10px 15px 5px;
+}
