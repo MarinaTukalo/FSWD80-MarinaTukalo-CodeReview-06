@@ -30,6 +30,10 @@ h5 {
 	background-size: cover;
 }
 
+.text_jbtr {
+	margin-top:200px; 
+}
+
 .content {
 	display: flex;
 	flex-wrap: wrap;
