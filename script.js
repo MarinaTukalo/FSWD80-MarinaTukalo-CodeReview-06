@@ -19,7 +19,7 @@ var Location = /** @class */ (function () {
         this.address = address;
     }
     Location.prototype.display = function () {
-        return "\n\t\t\t\t<img class=\"img-fluid card-img-top d-sm-none d-md-block\" src=\"img/" + this.img + "\">\n\t\t\t\t" + this.place + "<br><hr>\n\t\t\t\t" + this.zip + "<br><hr>  \n\t\t\t\t" + this.address + " \n\t\t\t";
+        return "\n\t\t\t\t<img class=\"img-fluid card-img-top d-xs-none d-sm-none d-md-block\" src=\"img/" + this.img + "\">\n\t\t\t\t" + this.place + "<br><hr>\n\t\t\t\t" + this.zip + "<br><hr>  \n\t\t\t\t" + this.address + " \n\t\t\t";
     };
     return Location;
 }());

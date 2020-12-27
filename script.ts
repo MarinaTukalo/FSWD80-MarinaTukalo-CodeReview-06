@@ -13,7 +13,7 @@ class Location {
 
 	display(){
 		return `
-				<img class="img-fluid card-img-top d-sm-none d-md-block" src="img/${this.img}">
+				<img class="img-fluid card-img-top d-xs-none d-sm-none d-md-block" src="img/${this.img}">
 				${this.place}<br><hr>
 				${this.zip}<br><hr>  
 				${this.address} 
